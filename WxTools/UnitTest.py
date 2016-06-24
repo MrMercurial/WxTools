@@ -34,3 +34,4 @@ p=urllib.urlencode({"access_token":token})
 ##################测试图片上传#######################
 print('测试git上传代码')
 print('第二次')
+print('test')
