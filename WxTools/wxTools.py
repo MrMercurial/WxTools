@@ -6,7 +6,7 @@ Created on 2016年6月20日
 '''
 import urllib,urllib2
 import json
-#from _mysql import NULL
+# from _mysql import NULL
 
 class wxTools():
     def __init__(self,appid,appsecret):
