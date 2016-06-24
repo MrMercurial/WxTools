@@ -35,9 +35,17 @@ class wxTools():
             #return wxToken
     
     #菜单设置
-    def setMenu(self,token):
+    def setMenu(self,token=''):
+        if token='':
+            token=self.getToken()
         pass
-    
+
+    #s上传素材
+    #
+    def upload(self,token=''):
+        if token="":
+            token=self.getToken()
+        pass
     #消息发送
     #
     def sendMessage(self,token):
