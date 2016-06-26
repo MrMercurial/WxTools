@@ -36,4 +36,8 @@ p=urllib.urlencode({"access_token":token})
 # print('第二次')
 # print('test')
 
-c={'media':{'filename':'','filelength':'','content-type':'image/jpeg'}}
+pvar=urllib.urlencode({"access_token":token,"type":"image"})
+c={'media':{'filename':'/home/ant/01.jpg','filelength':'','content-type':'image/jpeg'}}
+t=urllib.urlencode(c)
+f=urllib.urlopen('https://api.weixin.qq.com/cgi-bin/media/upload?%s'%pvar,t)
+print f.read()

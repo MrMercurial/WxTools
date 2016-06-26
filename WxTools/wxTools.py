@@ -36,14 +36,14 @@ class wxTools():
     
     #菜单设置
     def setMenu(self,token=''):
-        if token='':
+        if token=='':
             token=self.getToken()
         pass
 
     #s上传素材
     #
     def upload(self,token=''):
-        if token="":
+        if token=="":
             token=self.getToken()
         pass
     #消息发送
